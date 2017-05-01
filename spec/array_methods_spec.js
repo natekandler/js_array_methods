@@ -2,6 +2,8 @@ describe("js enumerables", function() {
   var orange;
 
   it("returns true", function() {
-    expect(returnsTrue).to.be true;
+    var result = returnsTrue();
+    console.log(result)
+    expect(result).toBe(true);
   });
 });
