@@ -3,7 +3,7 @@
 ## Summary
 Just like in Ruby when we're working with collections JavaScript can provide some convenience methods for commonly performed operations so we don't have to write `for` loops for everything. 
 
-In the following releases we'll be refactoring the functions using `for` loops to use JavaScript [array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) methods.
+In the following releases we'll be refactoring the functions using `for` loops to use JavaScript [array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) methods. 
 
 You should not update the spec provided but the tests should still pass after you refactor.
 
@@ -15,6 +15,8 @@ When working with a collection we can ask ourselves what we are trying to accomp
 - manipulate
 - filter
 - order
+
+Something to always remember with JavaScript is browser support. If you need to support below IE9 you will run into issues with many of these methods. Check the Mozilla docs linked for each method to see all of the info on browser support.
 
 ### Release 1: Iterating
 If we just need to iterate we can use JavaScript's [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach?v=example) method.
