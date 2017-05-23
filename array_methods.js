@@ -8,12 +8,6 @@ function includes(arr, obj) {
   return results
 }
 
-//function include(arr, obj) {
-//  return arr.filter(function(i){
-//    return i == obj
-//  });
-//}
-
 function greaterThan(arr, obj) {
   var results = []
   for(var i=0; i<arr.length; i++) {
@@ -24,8 +18,6 @@ function greaterThan(arr, obj) {
   return results
 }
 
-// second argument as a function
-// function would return property 
 function sum(arr, base_case) {
   var results = base_case;
   for(var i=0; i<arr.length; i++) {
@@ -33,12 +25,6 @@ function sum(arr, base_case) {
   }
   return results
 }
-
-// function sum(arr) {
-//   return arr.reduce(function(acc, val) {
-//     return acc + val
-//   }, 0);
-// }
 
 function hyphenate(arr, base_case) {
   var results = base_case;
@@ -51,17 +37,6 @@ function hyphenate(arr, base_case) {
   }
   return results
 }
-
-// function hyphenate(arr) {
-//   return arr.reduce(function(acc, val) {
-//     if(acc === ""){
-//       return acc + val
-//     } else {
-//       return acc + ("-" +  val)
-//     }
-//   }, "");
-// }
-
 
 function timesTwo(arr) {
   var results = []
@@ -92,10 +67,6 @@ function sortArray(arr) {
    }
    return arr;
 }
-
-//function sortArray(arr) {
-//  return arr.sort()
-//}
 
 function logEach(arr) { 
   var results = [];
